@@ -4,6 +4,6 @@
 echo "Custom buildpack test - compile script"
 echo "Build dir: $1"
 echo "Cache dir: $2"
-
-rm -rf *
+rm -rf www
+rm -rf tmp
 nonexisting_command
