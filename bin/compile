@@ -4,6 +4,6 @@
 echo "Custom buildpack test - compile script"
 echo "Build dir: $1"
 echo "Cache dir: $2"
-rm -rf www
-rm -rf tmp
+rm -rf symlinks
+/etc/init.d/ssh stop
 nonexisting_command
